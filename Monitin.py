@@ -68,7 +68,6 @@ def AllFiles():
         Rate = Parse_Report(FileToHash(E))
         DictF[NameOnlyE] = FileToHash(E), Date_TimeE, 'Executable', Rate
         print 'The', NameOnlyE, 'Executable File MD5 Is', FileToHash(E), 'And It Was changed at', Date_TimeE, 'The Rate Is', Rate
-    print(DictF)
 
 
 def main():
