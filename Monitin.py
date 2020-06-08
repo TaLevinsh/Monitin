@@ -19,7 +19,7 @@ def OneFile():
 
 
 def Get_Report(Hash):
-    API_Key = '38d010da9b2ebc2def4bb58c1a1f930d22afab1cecf2632d094e52f82be7cc92'
+    API_Key = ''
     Url = 'https://www.virustotal.com/vtapi/v2/file/report'
     Params = {'apikey': API_Key, 'resource': Hash}
     Response = requests.get(Url, params=Params)
