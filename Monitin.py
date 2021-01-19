@@ -3,7 +3,6 @@ import hashlib
 from datetime import *
 import requests
 
-
 def FileToHash(Path):
     F = open(Path, 'rb')
     H = hashlib.md5()
