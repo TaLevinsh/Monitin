@@ -2,7 +2,6 @@ Monitin Project by Tal Saban
 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 Python tool that collects file hashes from a host.
 
-
 Instructions
 ^^^^^^^^^^^^
 1 > The tool gets a file or a directory path, and returns the corresponding MD5 hashes.
