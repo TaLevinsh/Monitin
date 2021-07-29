@@ -18,7 +18,7 @@ def OneFile():
 
 
 def Get_Report(Hash):
-    API_Key = ''
+    API_Key = ''    # * * * - Classified
     Url = 'https://www.virustotal.com/vtapi/v2/file/report'
     Params = {'apikey': API_Key, 'resource': Hash}
     Response = requests.get(Url, params=Params)
