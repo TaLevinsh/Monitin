@@ -1,8 +1,6 @@
-Monitin Project by Tal Saban
-~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
-Python tool that collects file hashes from a host.
+Monitin Project by Tal Levinshtein
 
-Instructions
-^^^^^^^^^^^^
-1 > The tool gets a file or a directory path, and returns the corresponding MD5 hashes.
-2 > The tool will rate the virus files according to VirusTotal’s scans (Using API, Requests Module etc)
+* Overview: A Python tool designed to collect file hashes from a host system. The tool performs the following tasks:
+1 - Accepts a file or directory path as input.
+2 - Computes the MD5 hash for each file.
+3 - Rates potential virus files by querying VirusTotal's API.
