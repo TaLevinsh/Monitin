@@ -1,6 +1,9 @@
 Monitin Project by Tal Levinshtein
 
-* Overview: A Python tool designed to collect file hashes from a host system. The tool performs the following tasks:
+* Overview:
+  A Python tool designed to collect file hashes from a host system.
+
+* The tool performs the following tasks:
 1 - Accepts a file or directory path as input.
 2 - Computes the MD5 hash for each file.
 3 - Rates potential virus files by querying VirusTotal's API.
